@@ -7,13 +7,10 @@
     <project path="vendor/brcm" name="FluentPi/fluent_vendor_brcm" />
 
     <!-- LineageOS additions -->
-    <project path="external/i2c-tools" name="lineage-rpi/android_external_i2c-tools" />
+    <project path="external/i2c-tools" name="FluentPi/android_external_i2c-tools" />
 
     <!-- LineageOS replacements -->
-    <remove-project path="external/mesa3d"/>
-    <remove-project path="external/drm_gralloc"/>
-    <remove-project path="frameworks/native"/>
-    <project path="external/mesa3d" name="lineage-rpi/android_external_mesa3d" />
-    <project path="external/drm_gralloc" name="lineage-rpi/android_external_drm_gralloc" />
-    <project path="frameworks/native" name="lineage-rpi/android_frameworks_native" />
+    <project path="external/mesa3d" name="FluentPi/android_external_mesa3d" />
+    <project path="external/drm_gralloc" name="FluentPi/android_external_drm_gralloc" />
+    <project path="frameworks/native" name="FluentPi/android_frameworks_native" />
 </manifest>
