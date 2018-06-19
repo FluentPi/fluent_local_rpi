@@ -10,6 +10,7 @@
     <project path="external/i2c-tools" name="FluentPi/android_external_i2c-tools" />
 
     <!-- LineageOS replacements -->
+    <remove-project name="platform/external/mesa3d"/>
     <project path="external/mesa3d" name="FluentPi/android_external_mesa3d" />
     <project path="external/drm_gralloc" name="FluentPi/android_external_drm_gralloc" />
     <project path="frameworks/native" name="FluentPi/android_frameworks_native" />
