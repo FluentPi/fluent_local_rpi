@@ -12,7 +12,7 @@
     <!-- LineageOS replacements -->
     <remove-project name="platform/external/mesa3d"/>
     <remove-project name="platform/external/drm_gralloc"/>
-    <remove-project name="frameworks/native"/>
+    <remove-project name="platform_frameworks_native"/>
     <project path="external/mesa3d" name="FluentPi/android_external_mesa3d" />
     <project path="external/drm_gralloc" name="FluentPi/android_external_drm_gralloc" />
     <project path="frameworks/native" name="FluentPi/android_frameworks_native" />
