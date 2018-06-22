@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Raspberry Pi 3 -->
-    <project path="device/brcm/rpi" name="FluentPi/fluent_device_brcm_rpi" />
+    <project path="device/brcm/rpi" name="FluentPi/fluent_device_brcm_rpi-common" />
     <project path="hardware/rpi3" name="FluentPi/fluent_hardware_rpi3" />
-    <project path="kernel/brcm/rpi3" name="FluentPi/fluent_kernel_broadcom_rpi" />
+    <project path="kernel/brcm/rpi3" name="FluentPi/fluent_kernel_broadcom_rpi3" />
     <project path="vendor/brcm" name="FluentPi/fluent_vendor_brcm" />
 
     <!-- LineageOS additions -->
