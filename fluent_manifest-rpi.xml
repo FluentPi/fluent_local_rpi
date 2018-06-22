@@ -2,18 +2,18 @@
 <manifest>
     <!-- Raspberry Pi 3 -->
     <project path="device/brcm/rpi" name="FluentPi/fluent_device_brcm_rpi" />
-    <project path="hardware/rpi3" name="FluentPi/android_hardware_rpi3" />
+    <project path="hardware/rpi3" name="FluentPi/fluent_hardware_rpi3" />
     <project path="kernel/brcm/rpi3" name="FluentPi/fluent_kernel_broadcom_rpi" />
     <project path="vendor/brcm" name="FluentPi/fluent_vendor_brcm" />
 
     <!-- LineageOS additions -->
-    <project path="external/i2c-tools" name="FluentPi/android_external_i2c-tools" />
+    <project path="external/i2c-tools" name="FluentPi/fluent_external_i2c-tools" />
 
     <!-- LineageOS replacements -->
     <remove-project name="platform/external/mesa3d"/>
     <remove-project name="platform/external/drm_gralloc"/>
     <remove-project name="platform_frameworks_native"/>
-    <project path="external/mesa3d" name="FluentPi/android_external_mesa3d" />
-    <project path="external/drm_gralloc" name="FluentPi/android_external_drm_gralloc" />
-    <project path="frameworks/native" name="FluentPi/android_frameworks_native" />
+    <project path="external/mesa3d" name="FluentPi/fluent_external_mesa3d" />
+    <project path="external/drm_gralloc" name="FluentPi/fluent_external_drm_gralloc" />
+    <project path="frameworks/native" name="FluentPi/fluent_frameworks_native" />
 </manifest>
