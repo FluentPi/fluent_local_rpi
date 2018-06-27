@@ -12,8 +12,6 @@
     <!-- LineageOS replacements -->
     <remove-project name="platform/external/mesa3d"/>
     <remove-project name="platform/external/drm_gralloc"/>
-    <remove-project name="platform_frameworks_native"/>
     <project path="external/mesa3d" name="FluentPi/fluent_external_mesa3d" remote="github" revision="cm-14.1" />
     <project path="external/drm_gralloc" name="FluentPi/fluent_external_drm_gralloc" remote="github" revision="cm-14.1" />
-    <project path="frameworks/native" name="FluentPi/fluent_frameworks_native" remote="github" revision="cm-14.1" />
 </manifest>
