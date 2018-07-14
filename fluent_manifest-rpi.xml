@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Raspberry Pi 3 -->
-    <project path="device/brcm/rpi" name="FluentPi/fluent_device_brcm_rpi-common" remote="github" revision="fluent-1.0" />
-    <project path="hardware/rpi3" name="FluentPi/fluent_hardware_rpi3" remote="github" revision="cm-14.1" />
-    <project path="kernel/brcm/rpi3" name="FluentPi/fluent_kernel_broadcom_rpi3" remote="github" revision="cm-14.1" />
-    <project path="vendor/brcm" name="FluentPi/fluent_vendor_brcm" remote="github" revision="fluent-1.0" />
+    <project path="device/brcm/rpi" name="FluentPi/fluent_device_brcm_rpi-common" remote="fluent" />
+    <project path="kernel/brcm/rpi" name="lineage-rpi/android_kernel_brcm_rpi3" remote="gh" revision="lineage-15.1" />
+    <project path="vendor/brcm" name="lineage-rpi/proprietary_vendor_brcm" remote="gh" revision="lineage-15.1" />
 
     <!-- LineageOS additions -->
-    <project path="external/i2c-tools" name="FluentPi/fluent_external_i2c-tools" remote="github" revision="cm-14.1" />
+    <project path="external/i2c-tools" name="lineage-rpi/android_external_i2c-tools" />
 
     <!-- LineageOS replacements -->
-    <remove-project name="platform/external/mesa3d"/>
-    <remove-project name="platform/external/drm_gralloc"/>
-    <remove-project name="platform_frameworks_native"/>
-    <project path="external/mesa3d" name="FluentPi/fluent_external_mesa3d" remote="github" revision="cm-14.1" />
-    <project path="external/drm_gralloc" name="FluentPi/fluent_external_drm_gralloc" remote="github" revision="cm-14.1" />
-    <project path="frameworks/native" name="FluentPi/fluent_frameworks_native" remote="github" revision="cm-14.1" />
+    <remove-project name="platform/external/swiftshader"/>
+    <project path="external/swiftshader" name="lineage-rpi/android_external_swiftshader" />
 </manifest>
