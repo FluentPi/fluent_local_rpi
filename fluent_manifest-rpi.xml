@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Raspberry Pi 3 -->
-    <project path="device/brcm/rpi" name="FluentPi/fluent_device_brcm_rpi-common" remote="fluent" />
+    <project path="device/brcm/rpi" name="FluentPi/fluent_device_brcm_rpi-common" remote="gh" revision="fluent-2.0" />
     <project path="kernel/brcm/rpi" name="lineage-rpi/android_kernel_brcm_rpi3" remote="gh" revision="lineage-15.1" />
     <project path="vendor/brcm" name="lineage-rpi/proprietary_vendor_brcm" remote="gh" revision="lineage-15.1" />
 
