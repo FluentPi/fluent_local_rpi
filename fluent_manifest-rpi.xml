@@ -6,9 +6,9 @@
     <project path="vendor/brcm" name="lineage-rpi/proprietary_vendor_brcm" remote="gh" revision="lineage-15.1" />
 
     <!-- LineageOS additions -->
-    <project path="external/i2c-tools" name="lineage-rpi/android_external_i2c-tools" />
+    <project path="external/i2c-tools" name="lineage-rpi/android_external_i2c-tools" remote="gh" revision="lineage-15.1" />
 
     <!-- LineageOS replacements -->
     <remove-project name="platform/external/swiftshader"/>
-    <project path="external/swiftshader" name="lineage-rpi/android_external_swiftshader" />
+    <project path="external/swiftshader" name="lineage-rpi/android_external_swiftshader" remote="gh" revision="lineage-15.1" />
 </manifest>
