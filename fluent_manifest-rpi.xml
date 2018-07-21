@@ -2,7 +2,7 @@
 <manifest>
     <!-- Raspberry Pi 3 -->
     <project path="device/brcm/rpi" name="FluentPi/fluent_device_brcm_rpi-common" remote="gh" revision="fluent-2.0" />
-    <project path="kernel/brcm/rpi" name="FluentPi/fluent_kernel_brcm_rpi3" remote="gh" revision="fluent-2.0" />
+    <project path="kernel/brcm/rpi" name="FluentPi/fluent_kernel_broadcom_rpi3" remote="gh" revision="fluent-2.0" />
     <project path="vendor/brcm/rpi" name="FluentPi/fluent_vendor_brcm_rpi" remote="gh" revision="fluent-2.0" />
 
     <!-- LineageOS additions -->
